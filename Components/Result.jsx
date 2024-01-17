@@ -15,10 +15,10 @@ function Result() {
                 </div>
                 <div>
                   <div className='scores'>
-                      <p>15</p>
-                      <p>9</p>
-                      <p>3</p>
-                      <p>6</p>
+                      <p className='mark'>15</p>
+                      <p  className='mark'>9</p>
+                      <p className='mark'>3</p>
+                      <p className='mark'>6</p>
                   <div>
                     <button id='playAgainButton'>Play again</button>
                     <button className='btn'>Back to home</button>

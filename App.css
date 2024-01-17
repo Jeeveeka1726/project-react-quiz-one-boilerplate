@@ -13,7 +13,8 @@ body{
 .flex{
   display: flex;
   justify-content: center;
-  margin-top: 40vh;
+  align-self: center;
+  padding: 250px;
   text-align: center;
 }
 
@@ -23,14 +24,15 @@ body{
 
 .box{
   background-color: white;
+  
 }
 
 .container{
   background-color: white;
   width: 90vw;
   height:70vh;
-  border: 1px solid black;
   margin-top:5vw;
+  margin-left: 5vw;
 
 }
 
@@ -97,6 +99,7 @@ body{
   color: green;
   text-align: center;
 }
+
 .div{
   border: 1px solid black;
   width: 90vw;
@@ -159,4 +162,12 @@ body{
 
 #title{
   text-align: center;
+}
+
+.head{
+  margin-left: 5vw;
+}
+
+.mark{
+  padding-top: 13px;
 }
